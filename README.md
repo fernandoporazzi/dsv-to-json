@@ -29,5 +29,12 @@ dsvToJson(moviesOptions)
   .catch( (err) => {
     console.log(err);
   });
-
 ```
+
+## Options
+
+Required parameters:
+
+`<delimiter>`: Custom delimiter. It can be any symbol you want. Ex.: `|`, `;`, `,` or anything you want.
+
+`<fileName>`: The path to the file and its extension. For now, this module is extension agnostic. 
